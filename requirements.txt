@@ -1,0 +1,11 @@
+openai
+jupyter
+scikit-learn
+langchain
+transformers
+huggingface-hub
+streamlit
+python-dotenv
+tiktoken
+bertviz
+
