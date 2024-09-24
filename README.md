@@ -1,51 +1,41 @@
-# IITH-AI
-This repo has all the code I did.
-Project Title: NLP Applications with BERT and LangChain
-Overview
-This project demonstrates various applications of natural language processing (NLP) using BERT and LangChain. It includes examples of building models, handling CSV data, and extracting meaningful insights from text.
 
-Files Included
-1. LangChain Introduction
-This file introduces LangChain, a framework for working with language models. It covers:
+This repository contains all the code I worked on during the **NLP and Data Applications Project**. I built various applications using **BERT** and **LangChain**, and along the way, I learned how to leverage large language models and integrate them into real-world tasks like question-answering, entity extraction, and text generation- text to text and emoji to text.
 
-Setting up the environment and necessary libraries.
-Using OpenAI's models for various tasks, including text predictions and prompt handling.
-2. app_csv_qa.py
-A Streamlit application that allows users to upload CSV files and ask questions about the data. The app:
+# NLP and Data Applications using BERT & LangChain
 
-Displays the contents of the uploaded CSV.
-Accepts user questions and provides responses based on the data using a custom CSV query function.
-3. BERT Introduction.ipynb
-An introductory notebook that covers:
+## Project Overview
 
-What BERT is and how it works.
-Applications of BERT in tasks like sentiment analysis and question answering.
-The benefits of using BERT for NLP tasks.
-4. BERT Tokenizer Model Introduction.ipynb
-This notebook provides insights into the BERT tokenizer, covering:
+### 1. **LangChain Introduction**
+This section demonstrates how to use the LangChain framework with OpenAI to perform tasks like:
+- Language model integration
+- Simple queries using ChatGPT
+- Text generation and entity extraction
+- Prompt customization for specialized responses
 
-Tokenization and vocabulary.
-Use cases for measuring text similarity and extracting word embeddings.
-5. CSV Agent.py
-A custom module designed for handling queries related to CSV data, facilitating interaction with the app and enabling users to retrieve specific information from datasets.
+### 2. **App: CSV File Question Answering (app_csv_qa.py)**
+An interactive web app built using **Streamlit**. Users can upload a CSV file and ask questions about the data. The app uses a language model to respond to user queries based on the contents of the file.
 
-6. Example BERT MSM.ipynb
-A notebook showcasing examples of BERT's capabilities, including masked language modeling and token embeddings.
+### 3. **BERT Introduction (BERT_intro.ipynb)**
+A detailed introduction to using BERT (Bidirectional Encoder Representations from Transformers) for NLP tasks:
+- Understanding tokenization
+- Extracting word embeddings
+- Exploring basic model usage
 
-7. requirements.txt
-Lists the necessary Python packages for the project, including:
+### 4. **BERT Tokenizer & Model Introduction (BERT_tokenizer_model_intro.ipynb)**
+This notebook dives into tokenization and model outputs:
+- Tokenizing text inputs
+- Creating embeddings for specific words
+- Comparing semantic similarities between texts
 
-openai, jupyter, scikit-learn, langchain, transformers, huggingface-hub, streamlit, python-dotenv, tiktoken, and bertviz.
-How to Run the Project
-Clone the repository.
-Install the required packages using:
-bash
-Copy code
-pip install -r requirements.txt
-Run the Streamlit app:
-bash
-Copy code
-streamlit run app_csv_qa.py
-Explore the Jupyter notebooks to see examples and learn more about BERT and LangChain.
-License
-This project is open-source. Feel free to contribute!
+### 5. **BERT Example (example_bert_nsp.ipynb)**
+This notebook uses BERT for specific tasks such as:
+- Next Sentence Prediction (NSP)
+- Semantic similarity between sentences
+
+---
+
+**Learning Experience:**  
+This repo has all the code I worked on during the **NLP and Data Applications Project**. I created various applications using **BERT**, **LangChain**, and **Streamlit**. Through this project, I learned how to use **language models**, build **interactive apps**, and handle **NLP tasks** such as tokenization, text generation, and question-answering with CSV data.
+
+---
+
