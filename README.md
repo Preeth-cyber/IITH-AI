@@ -1,5 +1,5 @@
 
-This repository contains all the code I worked on during the **NLP and Data Applications Project**. I built various applications using **BERT** and **LangChain**, and along the way, I learned how to leverage large language models and integrate them into real-world tasks like question-answering, entity extraction, and text generation- text to text and emoji to text.
+This repository contains all the code I worked on during the **NLP and Data Applications Project**. I built various applications using **BERT** and **LangChain**, and along the way, I learned how to leverage large language models and integrate them into real-world tasks like question-answering, entity extraction, and text generation- text to text and emoji to text and vice-versa.
 
 # NLP and Data Applications using BERT & LangChain
 
